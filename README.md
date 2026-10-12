@@ -2,6 +2,12 @@
 
 [PejavaDock](https://dock.pejava.com) is an alternative Dock for macOS 14 and later: as many docks as you like, on any edge of any display, with iOS-style groups, web links, Liquid Glass and settings sync. It is free and distributed as compiled builds from [dock.pejava.com](https://dock.pejava.com/download/).
 
+Install with [Homebrew](https://brew.sh):
+
+```sh
+brew install --cask voy22/tap/pejava-dock
+```
+
 This repository holds the public issue tracker and the user documentation.
 
 ## Documentation

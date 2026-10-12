@@ -52,7 +52,7 @@ Right-click an empty area of any dock → Dock Settings…, use the menu bar ico
 
 ## How do I uninstall it?
 
-Quit PejavaDock (menu bar icon → Quit PejavaDock; the system Dock comes back), drag the app from Applications to the Trash and, if you want, delete `~/Library/Application Support/PejavaDock`.
+Installed with Homebrew: `brew uninstall --cask --zap pejava-dock`. Otherwise: quit PejavaDock (menu bar icon → Quit PejavaDock; the system Dock comes back), drag the app from Applications to the Trash and, if you want, delete `~/Library/Application Support/PejavaDock`.
 
 ## Is PejavaDock free?
 
