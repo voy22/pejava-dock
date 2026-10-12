@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://dock.pejava.com/docs/
+    about: Getting started, features, account and sync, FAQ and limits
+  - name: FAQ and known limits
+    url: https://dock.pejava.com/docs/faq/
+    about: The system Dock, windows under the dock, permissions

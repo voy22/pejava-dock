@@ -1,0 +1,43 @@
+name: Bug report
+description: Something does not work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Please check the [FAQ and limits](https://dock.pejava.com/docs/faq/) first; some things are limits of macOS.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected and what you got instead.
+      placeholder: |
+        1. Drop Safari onto Mail to make a group
+        2. Drag Mail out of the group
+        3. …
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: PejavaDock version
+      description: Finder → Applications → PejavaDock → Get Info.
+      placeholder: 0.2.0
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version and Mac
+      placeholder: macOS 26.0, MacBook Air M2
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Your setup
+      description: Number of docks and displays, which edge, auto-hide, permissions granted (menu bar icon → Permissions & Setup…).
+  - type: textarea
+    id: logs
+    attributes:
+      label: Screenshots, errors
+      description: Drag images or screen recordings here.
