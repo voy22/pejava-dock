@@ -2,8 +2,6 @@
 
 # Account and sync
 
-> Accounts arrive with the next version of PejavaDock. This page describes how they will work.
-
 An account keeps your docks and settings on our server, so a new Mac, or the same Mac after a reinstall, gets them back in a second. PejavaDock works fully without an account.
 
 ## Sign in
