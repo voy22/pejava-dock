@@ -45,6 +45,36 @@ Drag a link, the address bar or a bookmark from a browser onto a dock. PejavaDoc
 - Sites installed with Chrome's *Install page as app* are real apps in `~/Applications/Chrome Apps`: drag them in like any other app.
 - `.webloc` files dropped from Finder become links too.
 
+## Snapping and pushing
+
+Drag a dock by its dotted handle. It sticks to the nearest edge of the display under the pointer and, along that edge:
+
+- **Near a corner** it snaps into it and stays pinned there: a dock pinned to the right (or bottom) corner grows to the left (or up) when you add icons and shrinks back towards the corner when you remove them.
+- **Near another dock** it snaps next to it, a few points apart. Snapped docks move together: drag the first one and the others follow.
+- **Let go on top of another dock** and it snaps to the nearer side of it.
+- Docks on one edge never overlap: when one grows, the others are pushed aside, and a dock pinned to the corner pushes back.
+- **Hold Shift** while dragging to place the dock exactly where you let go, without snapping.
+
+Dock Settings → Placement shows what a dock is snapped or pinned to, with **Detach** / **Unpin**.
+
+## All free space
+
+Turn on **Use all free space on this edge** (Dock Settings → Placement, or the dock menu → Use All Free Space). The dock then takes everything between the other docks on that edge; they move to the ends of the edge. Its items start at the beginning, its widgets stay at the end.
+
+When there isn't room for everything, the items that don't fit are hidden and a **More** button (an ellipsis without a tile) appears after the last one that fits; click it for the rest.
+
+## Without a background
+
+**Hide the dock background** (Dock Settings → Appearance, or the dock menu → Hide Background) removes the plate: only the icons, the widgets and the move handle are left.
+
+## Windows of one app separately
+
+For apps you open in several windows — for example Chrome with a work, a home and a family profile — right-click the app → Options → **Show Windows Separately**. With two or more windows open, the app's icon is followed by one icon per window, in a frame. Each shows a badge with the window's initials (a browser's profile name), or a snapshot of the window with Screen Recording; the full title appears on hover. Click one to bring that window to the front; right-click it to minimize or close it, or to show the windows together again. Needs Accessibility. The list of such apps is in Dock Settings → Behavior.
+
+## Widgets
+
+Clock, disk space, weather and more at the end of a dock: see [Widgets](widgets.md).
+
 ## Separators and spacers
 
 Add as many as you need: right-click between icons → Insert → Separator/Spacer, or from the dock's settings. Separators split apps into groups; drag one to resize the whole dock. Spacers leave an empty icon-sized gap.

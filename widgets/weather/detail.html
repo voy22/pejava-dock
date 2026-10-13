@@ -1,0 +1,32 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="style.css">
+<style>
+  html, body { overflow: auto; }
+  body { padding: 16px; }
+  h1 { font-size: 15px; font-weight: 600; }
+  .now { display: flex; align-items: center; gap: 12px; margin: 10px 0 14px; }
+  .now .ico { font-size: 44px; }
+  .now .temp { font-size: 34px; font-weight: 600; }
+  .muted { color: var(--muted); }
+  table { width: 100%; border-collapse: collapse; }
+  td { padding: 6px 0; border-top: 1px solid var(--line); }
+  td.r { text-align: right; font-variant-numeric: tabular-nums; }
+  .src { margin-top: 10px; font-size: 11px; }
+</style></head>
+<body><h1 id="h">⏳</h1><div id="b"></div>
+<script src="weather.js"></script>
+<script>
+  PDWeather.load().then((r) => {
+    const { t, icon, group, deg } = PDWeather;
+    if (r.error) { document.getElementById('h').textContent = r.error; return; }
+    const c = r.data.current, d = r.data.daily;
+    document.getElementById('h').textContent = [r.place.name, r.place.admin1, r.place.country].filter(Boolean).join(', ');
+    const day = new Intl.DateTimeFormat(PDWeather.lang, { weekday: 'short', day: 'numeric' });
+    const rows = d.time.map((date, i) => `<tr><td>${i ? day.format(new Date(date + 'T12:00')) : t.today}</td><td>${icon(d.weather_code[i])} ${t[group(d.weather_code[i])]}</td>
+      <td class="r">${deg(d.temperature_2m_max[i])} <span class="muted">${deg(d.temperature_2m_min[i])}</span></td></tr>`).join('');
+    document.getElementById('b').innerHTML = `
+      <div class="now"><span class="ico">${icon(c.weather_code, c.is_day)}</span><div><div class="temp">${deg(c.temperature_2m)}</div>
+      <div class="muted">${t[group(c.weather_code)]} · ${deg(c.apparent_temperature)} · ${Math.round(c.relative_humidity_2m)}% · ${Math.round(c.wind_speed_10m)} ${PDWeather.fahrenheit ? 'mph' : 'km/h'}</div></div></div>
+      <table>${rows}</table><p class="src muted">${t.source}</p>`;
+  });
+</script></body></html>

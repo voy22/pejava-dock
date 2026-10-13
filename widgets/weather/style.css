@@ -1,0 +1,5 @@
+:root { color-scheme: light dark; --fg: #1d1d1f; --muted: rgba(0,0,0,.55); --card: rgba(255,255,255,.55); --line: rgba(0,0,0,.12); }
+:root[data-dark="1"] { --fg: #fff; --muted: rgba(255,255,255,.6); --card: rgba(255,255,255,.12); --line: rgba(255,255,255,.12); }
+* { box-sizing: border-box; margin: 0; }
+html, body { height: 100%; background: transparent; overflow: hidden; }
+body { font: 13px/1.2 -apple-system, BlinkMacSystemFont, system-ui, sans-serif; color: var(--fg); -webkit-user-select: none; cursor: default; }
