@@ -8,7 +8,7 @@ PejavaDock is an alternative Dock for macOS 14 and later. It runs next to the sy
 
 1. [Download](https://dock.pejava.com/download/) the `.dmg` (one build for Apple Silicon and Intel), open it and drag **PejavaDock** to **Applications**.
 2. Start PejavaDock from the Applications folder, Launchpad or Spotlight.
-3. The first time, macOS may say it cannot check the app for malicious software. Open **System Settings → Privacy & Security**, scroll down, click **Open Anyway** next to PejavaDock and confirm. This is needed once.
+3. The first time, macOS asks whether to open an app downloaded from the internet: click **Open**. PejavaDock is signed with an Apple Developer ID and notarized by Apple.
 
 **Or with [Homebrew](https://brew.sh):**
 
@@ -16,7 +16,7 @@ PejavaDock is an alternative Dock for macOS 14 and later. It runs next to the sy
 brew install --cask voy22/tap/pejava-dock
 ```
 
-It installs the same build and skips the “Open Anyway” step. Update with `brew upgrade --cask pejava-dock`; remove with `brew uninstall --cask pejava-dock` (add `--zap` to also delete your docks and settings).
+It installs the same build. Update with `brew upgrade --cask pejava-dock`; remove with `brew uninstall --cask pejava-dock` (add `--zap` to also delete your docks and settings).
 
 On the first launch PejavaDock builds your first dock, *Main Dock*, from the system Dock: the same apps, folders, size, magnification and edge. It adds the running apps section, minimized windows and the Trash, like the native Dock.
 
