@@ -1,6 +1,8 @@
 # PejavaDock
 
-[PejavaDock](https://dock.pejava.com) is an alternative Dock for macOS 14 and later: as many docks as you like, on any edge of any display, with iOS-style groups, web links, Liquid Glass and settings sync. It is free and distributed as compiled builds from [dock.pejava.com](https://dock.pejava.com/download/).
+[PejavaDock](https://dock.pejava.com) is an alternative Dock for macOS 14 and later: as many docks as you like, on any edge of any display, with iOS-style groups, widgets, web links, Liquid Glass and settings sync. Apps you open in several windows — Chrome with several profiles, VS Code with several projects — can show one icon per window.
+
+![VS Code with four projects and Chrome with three profiles, one icon per window](https://dock.pejava.com/screenshots/Screenshot4-dock.png) It is free and distributed as compiled builds from [dock.pejava.com](https://dock.pejava.com/download/).
 
 Install with [Homebrew](https://brew.sh):
 
@@ -13,7 +15,7 @@ This repository holds the public issue tracker and the user documentation.
 ## Documentation
 
 - **[Getting started](docs/start.md)**: install, hide the system Dock, where things are, permissions.
-- **[Features](docs/features.md)**: many docks, displays, groups, web links, appearance.
+- **[Features](docs/features.md)**: many docks, displays, groups, windows of one app separately, widgets, web links, appearance.
 - **[Account and sync](docs/account.md)**: what is synced, Supporter status, usage statistics.
 - **[FAQ and limits](docs/faq.md)**
 

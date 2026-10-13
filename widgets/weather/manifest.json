@@ -1,6 +1,19 @@
 {
   "id": "com.pejava.weather",
-  "name": { "en": "Weather", "ru": "Погода", "uk": "Погода", "de": "Wetter", "fr": "Météo", "es": "Tiempo", "it": "Meteo", "pt": "Tempo", "nl": "Weer", "pl": "Pogoda", "ja": "天気", "zh-Hans": "天气" },
+  "name": {
+    "en": "Weather",
+    "ru": "Погода",
+    "uk": "Погода",
+    "de": "Wetter",
+    "fr": "Météo",
+    "es": "Tiempo",
+    "it": "Meteo",
+    "pt": "Tempo",
+    "nl": "Weer",
+    "pl": "Pogoda",
+    "ja": "天気",
+    "zh-Hans": "天气"
+  },
   "description": {
     "en": "Current weather and a 7-day forecast for your city (open-meteo.com, no account needed).",
     "ru": "Погода сейчас и прогноз на 7 дней для вашего города (open-meteo.com, без регистрации).",
@@ -15,22 +28,85 @@
     "ja": "あなたの都市の現在の天気と7日間の予報（open-meteo.com、アカウント不要）。",
     "zh-Hans": "你所在城市的当前天气和 7 天预报（open-meteo.com，无需账户）。"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "PejavaDock",
   "symbol": "cloud.sun",
-  "size": { "horizontal": 2.4, "vertical": 1.3 },
+  "size": {
+    "horizontal": 2.4,
+    "vertical": 1.3
+  },
   "entry": "widget.html",
   "detail": "detail.html",
   "refresh": 900,
   "settings": [
     {
-      "key": "city", "type": "text", "default": "",
-      "label": { "en": "City (empty: from the time zone)", "ru": "Город (пусто — по часовому поясу)", "uk": "Місто (порожньо — за часовим поясом)", "de": "Stadt (leer: aus der Zeitzone)", "fr": "Ville (vide : d’après le fuseau horaire)", "es": "Ciudad (vacío: según la zona horaria)", "it": "Città (vuoto: dal fuso orario)", "pt": "Cidade (vazio: pelo fuso horário)", "nl": "Stad (leeg: uit de tijdzone)", "pl": "Miasto (puste: według strefy czasowej)", "ja": "都市（空欄：タイムゾーンから）", "zh-Hans": "城市（留空：根据时区）" }
+      "key": "city",
+      "type": "text",
+      "default": "",
+      "label": {
+        "en": "City (empty: from the time zone)",
+        "ru": "Город (пусто — по часовому поясу)",
+        "uk": "Місто (порожньо — за часовим поясом)",
+        "de": "Stadt (leer: aus der Zeitzone)",
+        "fr": "Ville (vide : d’après le fuseau horaire)",
+        "es": "Ciudad (vacío: según la zona horaria)",
+        "it": "Città (vuoto: dal fuso orario)",
+        "pt": "Cidade (vazio: pelo fuso horário)",
+        "nl": "Stad (leeg: uit de tijdzone)",
+        "pl": "Miasto (puste: według strefy czasowej)",
+        "ja": "都市（空欄：タイムゾーンから）",
+        "zh-Hans": "城市（留空：根据时区）"
+      }
     },
     {
-      "key": "units", "type": "choice", "default": "c",
-      "label": { "en": "Units", "ru": "Единицы", "uk": "Одиниці", "de": "Einheiten", "fr": "Unités", "es": "Unidades", "it": "Unità", "pt": "Unidades", "nl": "Eenheden", "pl": "Jednostki", "ja": "単位", "zh-Hans": "单位" },
-      "options": [ { "value": "c", "label": "°C" }, { "value": "f", "label": "°F" } ]
+      "key": "units",
+      "type": "choice",
+      "default": "c",
+      "label": {
+        "en": "Units",
+        "ru": "Единицы",
+        "uk": "Одиниці",
+        "de": "Einheiten",
+        "fr": "Unités",
+        "es": "Unidades",
+        "it": "Unità",
+        "pt": "Unidades",
+        "nl": "Eenheden",
+        "pl": "Jednostki",
+        "ja": "単位",
+        "zh-Hans": "单位"
+      },
+      "options": [
+        {
+          "value": "c",
+          "label": "°C"
+        },
+        {
+          "value": "f",
+          "label": "°F"
+        }
+      ]
+    },
+    {
+      "key": "smallText",
+      "type": "number",
+      "min": 0,
+      "max": 24,
+      "default": 11,
+      "label": {
+        "en": "Small text size",
+        "ru": "Размер мелкого текста",
+        "uk": "Розмір дрібного тексту",
+        "de": "Größe des kleinen Texts",
+        "fr": "Taille du petit texte",
+        "es": "Tamaño del texto pequeño",
+        "it": "Dimensione del testo piccolo",
+        "pt": "Tamanho do texto pequeno",
+        "nl": "Grootte van kleine tekst",
+        "pl": "Rozmiar małego tekstu",
+        "ja": "小さい文字のサイズ",
+        "zh-Hans": "小号文字大小"
+      }
     }
   ]
 }

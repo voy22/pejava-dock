@@ -69,7 +69,9 @@ When there isn't room for everything, the items that don't fit are hidden and a 
 
 ## Windows of one app separately
 
-For apps you open in several windows — for example Chrome with a work, a home and a family profile — right-click the app → Options → **Show Windows Separately**. With two or more windows open, the app's icon is followed by one icon per window, in a frame. Each shows a badge with the window's initials (a browser's profile name), or a snapshot of the window with Screen Recording; the full title appears on hover. Click one to bring that window to the front; right-click it to minimize or close it, or to show the windows together again. Needs Accessibility. The list of such apps is in Dock Settings → Behavior.
+For apps you open in several windows — for example Chrome with a work, a home and a family profile, or VS Code with several projects — right-click the app → Options → **Show Windows Separately**. With two or more windows open, the app's icon is followed by one icon per window, in a frame. Each shows a badge with the window's initials (a browser's profile name), or a snapshot of the window with Screen Recording; the full title appears on hover. Click one to bring that window to the front; right-click it to minimize or close it, or to show the windows together again. Needs Accessibility. The list of such apps is in Dock Settings → Behavior.
+
+![VS Code with four projects and Chrome with three profiles: each window has its own icon next to the app](https://dock.pejava.com/screenshots/Screenshot4-dock.png)
 
 ## Widgets
 

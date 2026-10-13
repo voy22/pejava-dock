@@ -4,8 +4,10 @@
   .w { height: 100vh; border-radius: 22vh; background: var(--card); box-shadow: inset 0 0 0 1px var(--line); display: flex; align-items: center; justify-content: center; gap: 6%; padding: 0 9%; }
   .ico { font-size: 46vh; line-height: 1; }
   .txt { display: flex; flex-direction: column; min-width: 0; }
-  .temp { font-size: 34vh; font-weight: 600; font-variant-numeric: tabular-nums; }
-  .city { font-size: 17vh; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .temp { font-size: 38vh; font-weight: 600; font-variant-numeric: tabular-nums; line-height: 1.05; }
+  .city { font-size: var(--small, 11px); color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .nosmall .city { display: none; }
+  .nosmall .temp { font-size: 48vh; }
   [data-orientation="v"] .w { flex-direction: column; gap: 2%; padding: 8% 0; border-radius: 22vw; }
   [data-orientation="v"] .ico { font-size: 40vw; }
   [data-orientation="v"] .temp { font-size: 30vw; text-align: center; }
@@ -15,6 +17,10 @@
 <body><div class="w" id="w"><span class="ico">⏳</span></div>
 <script src="weather.js"></script>
 <script>
+  // Small text size from the widget's settings, in points; 0 hides it.
+  const small = Number(JSON.parse(new URLSearchParams(location.search).get('settings') || '{}').smallText ?? 11);
+  if (small > 0) document.documentElement.style.setProperty('--small', `${Math.min(small, 24)}px`);
+  else document.documentElement.classList.add('nosmall');
   PDWeather.load().then((r) => {
     const w = document.getElementById('w');
     if (r.error) { w.innerHTML = `<span class="err">${r.error}</span>`; document.title = r.error; return; }

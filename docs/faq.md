@@ -22,6 +22,10 @@ defaults delete com.apple.dock autohide-delay; defaults write com.apple.dock aut
 
 A third-party dock cannot reserve screen space the way the system Dock does, so macOS does not know about it when it sizes windows. Turn on **Keep windows from overlapping the dock** for that dock (needs Accessibility), or use auto-hide.
 
+## Each Chrome profile or VS Code project in its own icon?
+
+Yes: right-click the app in a dock → Options → **Show Windows Separately**. Each open window then gets its own icon next to the app, with the profile or project initials; a click brings that window to the front. Needs Accessibility. See [Windows of one app separately](features.md#windows-of-one-app-separately).
+
 ## Minimized windows show the app icon instead of a thumbnail
 
 Thumbnails need the optional Screen Recording permission: System Settings → Privacy & Security → Screen & System Audio Recording → turn on PejavaDock, then relaunch it. PejavaDock only takes small snapshots of app windows when you switch apps; nothing is recorded or sent.
