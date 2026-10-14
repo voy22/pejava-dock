@@ -73,6 +73,12 @@ For apps you open in several windows — for example Chrome with a work, a home 
 
 ![VS Code with four projects and Chrome with three profiles: each window has its own icon next to the app](https://dock.pejava.com/screenshots/Screenshot4-dock.png)
 
+## Screen Apps: apps on this display
+
+With several displays, add **Screen Apps** to a dock (Dock Settings → Items): it shows the running apps whose windows are on that dock's display, like a taskbar per monitor. Pinned apps stay as they are. If the dock also has *Running Applications*, the apps already shown by Screen Apps are left out there.
+
+An app that is hidden, minimized or in another Space stays on the display where it was last seen, so you can still click it. Apps with no windows appear on the main display.
+
 ## Widgets
 
 Clock, disk space, weather and more at the end of a dock: see [Widgets](widgets.md).

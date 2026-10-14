@@ -35,7 +35,7 @@ If you hid the menu bar icon, open PejavaDock again from the Applications folder
 
 ## Add, arrange and remove
 
-- **Add:** drag apps, files, folders and links from Finder or a browser onto a dock, or use the **+** menu in the dock's settings (App…, Folder…, File…, Separator, Spacer, Running Applications, Downloads, Minimized Windows, Trash).
+- **Add:** drag apps, files, folders and links from Finder or a browser onto a dock, or use the **+** menu in the dock's settings (App…, Folder…, File…, Separator, Spacer, Running Applications, Running App Group, Downloads, Screen Apps, Minimized Windows, Trash).
 - **Reorder:** drag icons along the dock, or between docks.
 - **Group:** drop an app onto another app. See [Features → Groups](features.md#groups).
 - **Remove:** drag an icon out of the dock until a puff appears and let go, or right-click it → Remove from Dock.
