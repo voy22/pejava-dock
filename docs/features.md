@@ -33,7 +33,7 @@ Each dock remembers its display. If that display is disconnected, the dock moves
 Drop an app onto another app to make a group, like folders on an iPhone. Drop more apps onto the group to add them.
 
 - **Up to four items:** the group icon is split into quarters, each showing one app. Click a quarter to launch that app; each quarter has its own running indicator, and you can drag an app out of its quarter.
-- **More than four:** clicking the group opens a panel with all its icons.
+- **More than four:** clicking the group opens a panel with all its icons. To take an icon out of the group, drag it from the panel onto a dock, or use *Move Out of Group* at the bottom.
 - Right-click a group to rename it, ungroup it or remove it from the dock. Right-click an item inside to move it out of the group.
 
 ## Web links
