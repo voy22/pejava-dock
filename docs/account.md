@@ -34,7 +34,7 @@ Not synced: permissions (each Mac grants them itself), downloaded site icons (th
 
 ## Supporter
 
-A donation of $1 or more through [GitHub Sponsors](https://dock.pejava.com/donate/) makes your account a **Supporter** on all your Macs: no donation reminders and no news messages. The status does not expire.
+A donation of $1 or more through [GitHub Sponsors](https://dock.pejava.com/donate/) makes your account a **Supporter** on all your Macs: no donation reminders and no news messages, unless you turn them on in Settings → Notifications. The status does not expire.
 
 Sponsor with the GitHub account you use in PejavaDock, or link it first. If you sponsored before signing in, sign in with that GitHub account later and the status appears.
 
@@ -44,4 +44,4 @@ Once a day PejavaDock sends an anonymous ping: a random installation ID (not lin
 
 ## Messages in the free version
 
-During the first week after installation PejavaDock shows nothing. After that, the free version may show a short news message (once per message) and a donation reminder (at most once a week), never more often than one window in 30 minutes. The pages come from dock.pejava.com in your Mac's language. Supporters never see them.
+During the first week after installation PejavaDock shows nothing. After that, the free version may show a short news message (once per message) and a donation reminder (at most once a week), never more often than one window in 30 minutes. The pages come from dock.pejava.com in your Mac's language. Supporters choose in **Settings → Notifications** what to see: news, update offers and donation reminders. A new Supporter starts with only update offers on. In the free version these options are on and locked.
