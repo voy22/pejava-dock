@@ -79,6 +79,10 @@ With several displays, add **Screen Apps** to a dock (Dock Settings → Items): 
 
 An app that is hidden, minimized or in another Space stays on the display where it was last seen, so you can still click it. Apps with no windows appear on the main display.
 
+## ⌘Tab on the right display
+
+The system ⌘Tab switcher opens on the display where the system Dock last was, and a hidden system Dock never moves. So PejavaDock has its own switcher that opens on the display with the active window (Settings → General, on by default). Hold ⌘ and press Tab (⇧Tab goes back), or use the arrows or the mouse; Esc cancels, Q quits and H hides the selected app. Needs Accessibility; without it the system switcher works as usual. Not available in the Mac App Store version.
+
 ## Widgets
 
 Clock, disk space, weather and more at the end of a dock: see [Widgets](widgets.md).
