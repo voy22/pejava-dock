@@ -40,7 +40,7 @@ Sponsor with the GitHub account you use in PejavaDock, or link it first. If you 
 
 ## Usage statistics
 
-Once a day PejavaDock sends an anonymous ping: a random installation ID (not linked to your account), the app version, macOS version, processor type, language and the number of docks. The country is taken from the connection; the IP address is not stored. It helps us see which macOS versions and languages to support. Turn it off in Settings → General → *Send anonymous usage statistics*.
+Once a day PejavaDock sends an anonymous ping: a random installation ID (not linked to your account), the app version, macOS version, processor type, language and the number of docks. The country is taken from the connection; the IP address is not stored. It helps us see which macOS versions and languages to support. Supporters can turn it off in Settings → General → *Send anonymous usage statistics*; in the free version it stays on. To object or to have your statistics deleted, write to [privacy@pejava.com](mailto:privacy@pejava.com).
 
 ## Messages in the free version
 
