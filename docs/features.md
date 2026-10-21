@@ -81,7 +81,7 @@ An app that is hidden, minimized or in another Space stays on the display where 
 
 ## ⌘Tab on the right display
 
-The system ⌘Tab switcher opens on the display where the system Dock last was, and a hidden system Dock never moves. So PejavaDock has its own switcher that opens on the display with the active window (Settings → General, on by default). Hold ⌘ and press Tab (⇧Tab goes back), or use the arrows or the mouse; Esc cancels, Q quits and H hides the selected app. Needs Accessibility; without it the system switcher works as usual. Not available in the Mac App Store version.
+The system ⌘Tab switcher opens on the display where the system Dock last was, and a hidden system Dock never moves. So PejavaDock has its own switcher (Settings → ⌘Tab Switcher, on by default). It opens on the display with the mouse pointer, or with the active window if you choose so, and can show windows instead of apps. Hold ⌘ and press Tab (⇧Tab goes back), or use the arrows or the mouse; Esc cancels, Q quits and H hides the selected app. Needs Accessibility; without it the system switcher works as usual. Not available in the Mac App Store version.
 
 ## Widgets
 
